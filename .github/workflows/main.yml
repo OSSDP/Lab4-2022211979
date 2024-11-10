@@ -17,4 +17,4 @@ jobs:
          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
          restore-keys: ${{ runner.os }}-m2
      - name: Run tests with Maven
-       run: mvn -B test --file pom.xml C:\Users\32013\Desktop\开源实践报告\GithubTest\pom.xml 
+       run: mvn -B test --file C:\Users\32013\Desktop\开源实践报告\GithubTest\pom.xml 
